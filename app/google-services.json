@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "69259438591",
+    "firebase_url": "https://eshop-3060d.firebaseio.com",
+    "project_id": "eshop-3060d",
+    "storage_bucket": "eshop-3060d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69259438591:android:1774ec11de16beb7a61fca",
+        "android_client_info": {
+          "package_name": "app.noobstack.eshoplk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69259438591-q28okv11vi2f7jpemkl7chmdqtlcq5ec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6RX3WmoZ1zHBZPs3iHPJgF_Yf1m_-Rg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69259438591-q28okv11vi2f7jpemkl7chmdqtlcq5ec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
