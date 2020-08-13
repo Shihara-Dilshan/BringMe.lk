@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:id="@+id/all"
-        android:title="All"
-        android:icon="@drawable/all"
+    <item android:id="@+id/home"
+        android:title="@string/Home"
+        android:icon="@drawable/home"
         app:showAsAction="always" />
 
-    <item android:id="@+id/catone"
-        android:title="Cat one"
-        android:icon="@drawable/catone"
+    <item android:id="@+id/search_ico"
+        android:title="@string/Search"
+        android:icon="@drawable/search"
         app:showAsAction="always" />
 
-    <item android:id="@+id/cattwo"
-        android:title="Cat one"
-        android:icon="@drawable/cattwo"
+    <item android:id="@+id/cart_ico"
+        android:title="@string/Cart"
+        android:icon="@drawable/cart"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/order_ico"
+        android:title="@string/Orders"
+        android:icon="@drawable/order"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/profile_ico"
+        android:title="@string/Profile"
+        android:icon="@drawable/profile"
         app:showAsAction="always" />
 
 </menu>

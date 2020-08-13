@@ -5,19 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigationBar"
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        app:menu="@menu/bottom_menu"
-        android:layout_alignParentBottom="true"
-        android:id="@+id/bottomBar"
-        android:background="@color/bottomBar"/>
+        android:layout_alignParentBottom="false"
+        android:background="#009688"
+        app:menu="@menu/bottom_menu" />
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/bottomBar"
+        android:layout_below="@+id/navigationBar"
         android:layout_alignParentLeft="true"
         >
 

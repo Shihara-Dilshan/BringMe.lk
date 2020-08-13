@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">eShop.lk</string>
+    <string name="app_name">BringMe.lk</string>
+    <string name="Home">Home</string>
+    <string name="Search">Search</string>
+    <string name="Cart">Cart</string>
+    <string name="Orders">Orders</string>
+    <string name="Profile">Profile</string>
 </resources>
