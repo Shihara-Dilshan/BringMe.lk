@@ -7,4 +7,7 @@
     <string name="Profile">Profile</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="OderNumber">Order Number :OD123</string>
+    <string name="CustomerName">Customer Name:Ruvin Wijesinghe</string>
+    <string name="DeliveryLocation">Delivery Location:No 89 Main Street Mathale</string>
 </resources>
