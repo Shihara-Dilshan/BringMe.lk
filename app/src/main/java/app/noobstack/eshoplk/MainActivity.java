@@ -90,4 +90,11 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("shihara" , 222);
         startActivity(intent);
     }
+
+    public void viewCategory(View view) {
+        Toast.makeText(this, "sddsdssd", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, ViewCategory.class);
+        intent.putExtra("shihara" , 222);
+        startActivity(intent);
+    }
 }
