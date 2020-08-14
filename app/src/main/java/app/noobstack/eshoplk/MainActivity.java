@@ -9,8 +9,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
-import android.widget.Button;
 import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -23,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
     private HomeFragment homeFragment;
     private OrdersFragment ordersFragment;
     private ProfileFragment profileFragment;
-    private  SearchFragment searchFragment;
+    private SearchFragment searchFragment;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         ordersFragment = new OrdersFragment();
         profileFragment = new ProfileFragment();
         searchFragment = new SearchFragment();
+
 
         navigateFragment(homeFragment);
 
