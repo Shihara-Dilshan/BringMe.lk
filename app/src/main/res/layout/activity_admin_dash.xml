@@ -7,7 +7,7 @@
     tools:context=".AdminDashActivity">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/navigationBar"
+        android:id="@+id/adminNavigationBar"
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_alignParentBottom="false"
@@ -19,7 +19,7 @@
         android:layout_height="match_parent"
         android:layout_below="@+id/navigationBar"
         android:layout_alignParentLeft="true"
-        android:id="@+id/fragmentContainer"
+        android:id="@+id/AdminFragmentContainer"
         >
 
     </FrameLayout>

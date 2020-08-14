@@ -13,5 +13,14 @@
 
     <string name="top_categories">Top Categories</string>
     <string name="popular_foods">Popular Foods</string>
-
+    <string name="DeliveryOrders">Delivery Orders From Customer</string>
+    <string name="Drivers">Drivers In The System</string>
+    <string name="DriverName">Driver Name :XXXXXXXXXXX</string>
+    <string name="ordersfordeliver">Orders For Deliver</string>
+    <string name="Driverstatus">Bussy</string>
+    <string name="Driverstatus2">Free</string>
+    <string name="DeliverStatus1">Delivered</string>
+    <string name="DeliverStatus2">Not Delivered</string>
+    <string name="ongoingDeliveries">On Going Deliveries</string>
+    <string name="Distance">Distance to deliver:12KM</string>
 </resources>
