@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeFragment"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    >
 
     <!-- TODO: Update blank fragment layout -->
     <ScrollView
@@ -37,94 +38,50 @@
                         android:layout_width="match_parent"
                         android:layout_height="240dp"
                         android:id="@+id/category_view"
-                        android:src="@mipmap/maxresdefault"
+                        android:src="@mipmap/category2"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
                         />
                     <TextView
-                        android:layout_width="300dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="4dp"
-                        android:text="Name : xxxxxx"
+                        android:text="Salads"
                         android:maxLines="1"
-                        android:id="@+id/name"/>
+                        android:id="@+id/name"
+                        android:layout_gravity="center"
+                        android:textAppearance="?android:textAppearanceMedium"/>
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="4dp"
-                        android:text="Descripstion : xxxxxx"
-                        android:maxLines="1"
-                        android:id="@+id/disc"/>
-
-
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="240dp"
-                        android:id="@+id/category_view1"
-                        android:src="@mipmap/maxresdefault"
-                        />
+                        android:text="Check our Salad in different flavors and different prices"
+                        android:maxLines="5"
+                        android:id="@+id/disc"
+                        android:layout_gravity="center"/>
                     <TextView
-                        android:layout_width="300dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="4dp"
-                        android:text="Name : xxxxxx"
-                        android:maxLines="1"
-                        android:id="@+id/name1"/>
+                        android:text="Rs 300 - 1200"
+                        android:maxLines="5"
+                        android:id="@+id/price"
+                        android:layout_gravity="center"/>
 
-                    <TextView
+                    <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:padding="4dp"
-                        android:text="Descripstion : xxxxxx"
-                        android:maxLines="1"
-                        android:id="@+id/disc1"/>
+                        android:text="View"
+                        android:background="@drawable/button_background"
+                        android:textColor="@color/whiteText"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_gravity="center"
+                        android:onClick="viewCategory">
 
-
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="240dp"
-                        android:id="@+id/category_view2"
-                        android:src="@mipmap/maxresdefault"
-                        />
-                    <TextView
-                        android:layout_width="300dp"
-                        android:layout_height="wrap_content"
-                        android:padding="4dp"
-                        android:text="Name : xxxxxx"
-                        android:maxLines="1"
-                        android:id="@+id/name2"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:padding="4dp"
-                        android:text="Descripstion : xxxxxx"
-                        android:maxLines="1"
-                        android:id="@+id/disc2"/>
-
+                    </Button>
 
 
                 </LinearLayout>
@@ -142,31 +99,119 @@
                         android:layout_width="match_parent"
                         android:layout_height="240dp"
                         android:id="@+id/category_view3"
-                        android:src="@mipmap/maxresdefault"
+                        android:src="@mipmap/category1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
                         />
                     <TextView
-                        android:layout_width="300dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="4dp"
-                        android:text="Name : xxxxxx"
+                        android:text="Pizza"
                         android:maxLines="1"
-                        android:id="@+id/name3"/>
+                        android:id="@+id/name3"
+                        android:layout_gravity="center"
+                        android:textAppearance="?android:textAppearanceMedium"/>
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="4dp"
-                        android:text="Descripstion : xxxxxx"
-                        android:maxLines="1"
-                        android:id="@+id/disc3"/>
+                        android:text="Check our pizza in different flavors and different prices"
+                        android:maxLines="5"
+                        android:id="@+id/disc3"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:text="Rs 400 - 800"
+                        android:maxLines="5"
+                        android:id="@+id/price3"
+                        android:layout_gravity="center"/>
 
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="View"
+                        android:background="@drawable/button_background"
+                        android:textColor="@color/whiteText"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_gravity="center"
+                        android:onClick="viewCategory">
+
+                    </Button>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="240dp"
+                        android:id="@+id/category_view4"
+                        android:src="@mipmap/category3"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="25dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:text="Buns"
+                        android:maxLines="1"
+                        android:id="@+id/name4"
+                        android:layout_gravity="center"
+                        android:textAppearance="?android:textAppearanceMedium"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:text="Check our Buns in different flavors and different prices"
+                        android:maxLines="5"
+                        android:id="@+id/disc4"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:text="Rs 300 - 1000"
+                        android:maxLines="5"
+                        android:id="@+id/price4"
+                        android:layout_gravity="center"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="View"
+                        android:background="@drawable/button_background"
+                        android:textColor="@color/whiteText"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_gravity="center"
+                        android:onClick="viewCategory">
+
+                    </Button>
 
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.recyclerview.widget.RecyclerView
                 android:layout_width="match_parent"
-                android:layout_height="360dp"
+                android:layout_height="wrap_content"
                 android:id="@+id/home_categories"
                 >
 
@@ -178,7 +223,8 @@
                 android:layout_margin="5dp"
                 android:padding="10dp"
                 android:textAppearance="?android:textAppearanceMedium"
-                android:text="@string/popular_foods"/>
+                android:text="@string/popular_foods"
+                android:layout_marginBottom="15dp"/>
 
             <androidx.recyclerview.widget.RecyclerView
                 android:layout_width="match_parent"

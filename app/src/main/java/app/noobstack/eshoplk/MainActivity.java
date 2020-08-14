@@ -10,8 +10,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
-import android.widget.Button;
 import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -24,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
     private HomeFragment homeFragment;
     private OrdersFragment ordersFragment;
     private ProfileFragment profileFragment;
-    private  SearchFragment searchFragment;
+    private SearchFragment searchFragment;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         ordersFragment = new OrdersFragment();
         profileFragment = new ProfileFragment();
         searchFragment = new SearchFragment();
+
 
         navigateFragment(homeFragment);
 
@@ -90,6 +90,15 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, AdminDashActivity.class);
         intent.putExtra("shihara" , 222);
         startActivity(intent);
+        overridePendingTransition( R.anim.slide_in_up, R.anim.slide_out_up );
+    }
+
+    public void viewCategory(View view) {
+        Toast.makeText(this, "sddsdssd", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, ViewCategory.class);
+        intent.putExtra("shihara" , 222);
+        startActivity(intent);
+        overridePendingTransition( R.anim.slide_in_up, R.anim.slide_out_up );
     }
 
 
