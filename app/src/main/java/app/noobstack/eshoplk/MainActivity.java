@@ -3,6 +3,7 @@ package app.noobstack.eshoplk;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
@@ -54,19 +55,19 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(MainActivity.this, "Home Fragment needs to appear", Toast.LENGTH_SHORT).show();
                         navigateFragment(homeFragment);
                         return true;
-                    case R.id.search_ico:
+                    case R.id.AdminSearch_ico:
                         Toast.makeText(MainActivity.this, "search Fragment needs to appear", Toast.LENGTH_SHORT).show();
                         navigateFragment(searchFragment);
                         return true;
-                    case R.id.cart_ico:
+                    case R.id.AdminCart_ico:
                         Toast.makeText(MainActivity.this, "cart Fragment needs to appear", Toast.LENGTH_SHORT).show();
                         navigateFragment(cartFragment);
                         return true;
-                    case R.id.order_ico:
+                    case R.id.AdminOrder_ico:
                         Toast.makeText(MainActivity.this, "order Fragment needs to appear", Toast.LENGTH_SHORT).show();
                         navigateFragment(ordersFragment);
                         return true;
-                    case R.id.profile_ico:
+                    case R.id.AdminProfile_ico:
                         Toast.makeText(MainActivity.this, "profile Fragment needs to appear", Toast.LENGTH_SHORT).show();
                         navigateFragment(profileFragment );
                         return true;
@@ -90,4 +91,7 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("shihara" , 222);
         startActivity(intent);
     }
-}
+
+
+
+    }
