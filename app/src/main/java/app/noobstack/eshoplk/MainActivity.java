@@ -89,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, AdminDashActivity.class);
         intent.putExtra("shihara" , 222);
         startActivity(intent);
+        overridePendingTransition( R.anim.slide_in_up, R.anim.slide_out_up );
     }
 
     public void viewCategory(View view) {
@@ -96,5 +97,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ViewCategory.class);
         intent.putExtra("shihara" , 222);
         startActivity(intent);
+        overridePendingTransition( R.anim.slide_in_up, R.anim.slide_out_up );
     }
 }

@@ -2,6 +2,7 @@ package app.noobstack.eshoplk;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -21,6 +22,8 @@ public class ViewCategory extends AppCompatActivity {
     }
 
     public void orderNow(View view) {
-        
+        Intent intent = new Intent(this, OrderActivity.class);
+        startActivity(intent);
+        overridePendingTransition( R.anim.slide_in_up, R.anim.slide_out_up );
     }
 }
