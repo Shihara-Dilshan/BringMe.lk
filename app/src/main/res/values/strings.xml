@@ -20,7 +20,7 @@
     <string name="Driverstatus">Bussy</string>
     <string name="Driverstatus2">Free</string>
     <string name="DeliverStatus1">Delivered</string>
-    <string name="DeliverStatus2">Not Delivered</string>
+    <string name="DeliverStatus2">Pending</string>
     <string name="ongoingDeliveries">On Going Deliveries</string>
     <string name="Distance">Distance to deliver:12KM</string>
 </resources>
