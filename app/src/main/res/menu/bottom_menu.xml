@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:id="@+id/AdminHome"
+    <item android:id="@+id/Home"
         android:title="@string/Home"
         android:icon="@drawable/home"
         app:showAsAction="always" />
 
-    <item android:id="@+id/AdminSearch_ico"
+    <item android:id="@+id/Search_ico"
         android:title="@string/Search"
         android:icon="@drawable/search"
         app:showAsAction="always" />
 
-    <item android:id="@+id/AdminCart_ico"
+    <item android:id="@+id/Cart_ico"
         android:title="@string/Cart"
         android:icon="@drawable/cart"
         app:showAsAction="always" />
 
-    <item android:id="@+id/AdminOrder_ico"
+    <item android:id="@+id/Order_ico"
         android:title="@string/Orders"
         android:icon="@drawable/order"
         app:showAsAction="always" />
 
-    <item android:id="@+id/AdminProfile_ico"
+    <item android:id="@+id/Profile_ico"
         android:title="@string/Profile"
         android:icon="@drawable/profile"
         app:showAsAction="always" />

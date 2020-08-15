@@ -1,14 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".OrdersFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ordersBTN"
+        android:layout_below="@+id/navigationBar">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Past Orders"
+            android:layout_weight="1"
+            android:id="@+id/pastOrders"
+            android:onClick="ViewPAstOrders"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ongoing Orders"
+            android:layout_weight="1"
+            android:id="@+id/onGoingORders"
+            android:onClick="ViewOngoingOrders"/>
+
+    </LinearLayout>
+
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="orders" />
+        android:layout_below="@+id/ordersBTN"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/DeliveryFragmentContainer"
+        >
 
-</FrameLayout>
+
+
+    </FrameLayout>
+
+</RelativeLayout>
