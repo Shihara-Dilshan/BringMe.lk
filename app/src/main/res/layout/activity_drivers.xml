@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".AdminDeliveryOrders">
     <ScrollView
         android:layout_width="match_parent"
@@ -16,7 +17,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="100dp"
+                android:layout_marginLeft="78dp"
                 android:orientation="horizontal">
 
                 <TextView
@@ -254,8 +255,6 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
                         android:padding="1dp">
-
-
                     </LinearLayout>
 
 
@@ -466,45 +465,26 @@
                 android:id="@+id/card10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp">
+                android:layout_margin="8dp"
+                app:cardBackgroundColor="#302e2e"
+                >
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:layout_marginLeft="110dp"
+                    android:layout_marginLeft="78dp"
 
                     >
-
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:padding="10dp"
-                        android:text="Free Drivers  -12
-                        Bussy Drivers-14"
+                        android:textColor="#ffff"
+                        android:text="Free Drivers  -12/30"
                         android:textAppearance="?android:textAppearanceMedium" />
-
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:padding="1dp">
-
-
-                    </LinearLayout>
-
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="8dp"
-                        android:orientation="horizontal">
-
-                    </LinearLayout>
-
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
