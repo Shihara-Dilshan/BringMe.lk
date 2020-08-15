@@ -11,7 +11,7 @@
         android:icon="@drawable/food"
         app:showAsAction="always" />
 
-    <item android:id="@+id/category_ico"
+    <item android:id="@+id/adminCategory_ico"
         android:title="Categories"
         android:icon="@drawable/category"
         app:showAsAction="always" />

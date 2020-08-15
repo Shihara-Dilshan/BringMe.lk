@@ -7,6 +7,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".OrderActivity"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
     >
 
     <LinearLayout
@@ -60,13 +62,19 @@
                         android:layout_height="wrap_content"
                         android:text="-"
                         android:layout_weight="1"
-                        android:id="@+id/orderItemDecremement"/>
+                        android:id="@+id/orderItemDecremement"
+                        android:background="#009688"
+                        android:textColor="#ffffff"
+                        android:layout_marginRight="5dp"/>
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="+"
+                        android:textColor="#ffffff"
                         android:layout_weight="1"
-                        android:id="@+id/orderItemIncremement"/>
+                        android:id="@+id/orderItemIncremement"
+                        android:background="#009688"
+                        android:layout_marginRight="5dp"/>
 
                 </LinearLayout>
 
@@ -86,17 +94,86 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:hint="55/F Alpapalawala"
-                        android:layout_weight="1"/>
+                        android:layout_weight="1"
+                        />
 
                 </LinearLayout>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Total Price : 320"
+                    android:text="Your Bill"
                     android:layout_weight="1"
                     android:textSize="18sp"
                     android:layout_gravity="center"
                     android:layout_marginBottom="10dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Base Price"
+                        android:layout_weight="1"
+                        android:layout_marginBottom="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs. 320"
+                        android:layout_weight="1"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Deliver Tip"
+                        android:layout_weight="1"
+                        android:layout_marginBottom="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs. 30"
+                        android:layout_weight="1"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Price"
+                        android:layout_weight="1"
+                        android:layout_marginBottom="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs. 350"
+                        android:layout_weight="1"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                </LinearLayout>
+
+
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -104,10 +181,10 @@
                     android:text="Fast Delivery"
                     android:layout_weight="3"
                     android:textColor="#009688"
-                    android:textSize="18sp"
                     android:layout_gravity="center"
                     android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"/>
+                    android:layout_marginBottom="10dp"
+                    android:textAppearance="?android:textAppearanceSmall"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -115,18 +192,19 @@
                     android:text="Cancel order possible 5 minutes"
                     android:layout_weight="3"
                     android:textColor="#009688"
-                    android:textSize="18sp"
                     android:layout_gravity="center"
                     android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"/>
+                    android:layout_marginBottom="10dp"
+                    android:textAppearance="?android:textAppearanceSmall"/>
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Purchurse"
                     android:padding="5dp"
-                    android:background="@drawable/button_background"
-                    android:layout_margin="5dp"/>
+                    android:background="#009688"
+                    android:layout_margin="5dp"
+                    android:textColor="#ffffff"/>
 
 
 

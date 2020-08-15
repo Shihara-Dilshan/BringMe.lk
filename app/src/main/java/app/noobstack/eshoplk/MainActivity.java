@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
     private OrdersFragment ordersFragment;
     private ProfileFragment profileFragment;
     private SearchFragment searchFragment;
+    private ViewPastOrdersFragment viewPastOrdersFragment;
+    private ViewProcessingOrdersFragment viewProcessingOrdersFragment;
 
 
     @Override
@@ -42,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
         ordersFragment = new OrdersFragment();
         profileFragment = new ProfileFragment();
         searchFragment = new SearchFragment();
+        viewPastOrdersFragment = new ViewPastOrdersFragment();
+        viewProcessingOrdersFragment = new ViewProcessingOrdersFragment();
 
 
         navigateFragment(homeFragment);
@@ -51,23 +55,23 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 switch (menuItem.getItemId()){
-                    case R.id.home:
+                    case R.id.Home:
                         Toast.makeText(MainActivity.this, "Home Fragment needs to appear", Toast.LENGTH_SHORT).show();
                         navigateFragment(homeFragment);
                         return true;
-                    case R.id.AdminSearch_ico:
+                    case R.id.Search_ico:
                         Toast.makeText(MainActivity.this, "search Fragment needs to appear", Toast.LENGTH_SHORT).show();
                         navigateFragment(searchFragment);
                         return true;
-                    case R.id.AdminCart_ico:
+                    case R.id.Cart_ico:
                         Toast.makeText(MainActivity.this, "cart Fragment needs to appear", Toast.LENGTH_SHORT).show();
                         navigateFragment(cartFragment);
                         return true;
-                    case R.id.AdminOrder_ico:
+                    case R.id.Order_ico:
                         Toast.makeText(MainActivity.this, "order Fragment needs to appear", Toast.LENGTH_SHORT).show();
                         navigateFragment(ordersFragment);
                         return true;
-                    case R.id.AdminProfile_ico:
+                    case R.id.Profile_ico:
                         Toast.makeText(MainActivity.this, "profile Fragment needs to appear", Toast.LENGTH_SHORT).show();
                         navigateFragment(profileFragment );
                         return true;
@@ -102,5 +106,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
+    public void ViewPAstOrders(View view) {
+        navigateFragment(viewPastOrdersFragment);
     }
+
+    public void ViewOngoingOrders(View view) {
+        navigateFragment(viewProcessingOrdersFragment);
+    }
+}
