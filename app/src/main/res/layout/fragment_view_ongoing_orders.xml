@@ -110,7 +110,8 @@
                             android:text="Edit"
                             android:layout_weight="1"
                             android:textColor="#ffffff"
-                            android:layout_marginRight="3dp"/>
+                            android:layout_marginRight="3dp"
+                            android:onClick="editOrder"/>
                         <Button
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -118,7 +119,8 @@
                             android:text="Cancel"
                             android:layout_weight="1"
                             android:textColor="#ffffff"
-                            android:layout_marginRight="3dp"/>
+                            android:layout_marginRight="3dp"
+                            android:onClick="cancelMsg"/>
 
                     </LinearLayout>
 
