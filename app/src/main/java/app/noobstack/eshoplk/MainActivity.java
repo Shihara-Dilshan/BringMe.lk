@@ -2,6 +2,7 @@ package app.noobstack.eshoplk;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
@@ -26,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
     private ViewPastOrdersFragment viewPastOrdersFragment;
     private ViewProcessingOrdersFragment viewProcessingOrdersFragment;
 
+    private CardView searchResult1;
+    private CardView searchResult2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +41,10 @@ public class MainActivity extends AppCompatActivity {
         }
 
         setContentView(R.layout.activity_main);
+
+
+        searchResult1 = findViewById(R.id.search_result_1);
+        searchResult2 = findViewById(R.id.search_result_2);
 
         cartFragment = new CartFragment();
         homeFragment = new HomeFragment();
@@ -115,4 +122,12 @@ public class MainActivity extends AppCompatActivity {
     public void cancelMsg(View view) {
         Toast.makeText(this, "Your Order has been cancelled", Toast.LENGTH_SHORT).show();
     }
+
+    public void negigatePayment(View view) {
+        Intent intent = new Intent(this, PaymentActivity.class);
+        startActivity(intent);
+        overridePendingTransition( R.anim.slide_in_up, R.anim.slide_out_up );
+    }
+
+
 }
