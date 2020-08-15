@@ -19,6 +19,7 @@ public class AdminDashActivity extends AppCompatActivity {
     private AdminHome adminHome;
     private AdminDeliveryOrders adminDeliveryOrders;
     private AdminOngoingDeliveries adminOngoingDeliveries;
+    private DriverDeliveryView driverDeliveryView;
 
 
     @Override
@@ -34,7 +35,7 @@ public class AdminDashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_admin_dash);
         adminHome = new AdminHome();
         adminDeliveryOrders = new AdminDeliveryOrders();
-
+        driverDeliveryView =new DriverDeliveryView();
         nevigateAdminDash(adminHome);
 
         bottomNavigationView = findViewById(R.id.adminNavigationBar);
@@ -72,8 +73,16 @@ public class AdminDashActivity extends AppCompatActivity {
         intent.putExtra("Ruvin" , 222);
         startActivity(intent);
     }
+
     public void DriversInTheSystem(View view) {
         Intent intent = new Intent(this,Drivers.class );
+        intent.putExtra("Ruvin" , 222);
+        startActivity(intent);
+    }
+    public void DriverHome(View view) { nevigateAdminDash(driverDeliveryView); }
+
+    public void AssignDriver(View view) {
+        Intent intent = new Intent(this,AdminAssignDriver.class);
         intent.putExtra("Ruvin" , 222);
         startActivity(intent);
     }

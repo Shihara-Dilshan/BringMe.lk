@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".DriverDeliveryView">
     <ScrollView
         android:layout_width="match_parent"
@@ -76,7 +77,10 @@
                         android:id="@+id/card1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_margin="8dp">
+                        android:layout_margin="8dp"
+                        app:cardBackgroundColor="#302e2e"
+
+                        >
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -90,7 +94,9 @@
                                 android:layout_margin="5dp"
                                 android:padding="10dp"
                                 android:text="@string/Distance"
-                                android:textAppearance="?android:textAppearanceMedium" />
+                                android:textAppearance="?android:textAppearanceMedium"
+                                android:textColor="#ffff"
+                                />
 
                             <TextView
                                 android:layout_width="200dp"
@@ -98,7 +104,9 @@
                                 android:layout_margin="5dp"
                                 android:padding="10dp"
                                 android:text="@string/DeliverStatus2"
-                                android:textAppearance="?android:textAppearanceMedium" />
+                                android:textAppearance="?android:textAppearanceMedium"
+                                android:textColor="#ffff"
+                                />
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -128,7 +136,9 @@
                 android:id="@+id/card2.1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp">
+                android:layout_margin="8dp"
+
+                >
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -149,6 +159,8 @@
                             android:layout_height="wrap_content"
                             android:text="@string/CustomerName"
                             android:textAppearance="?attr/textAppearanceHeadline6"
+
+
                             />
                         <TextView
                             android:layout_width="wrap_content"
@@ -182,7 +194,9 @@
                         android:id="@+id/card2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_margin="8dp">
+                        android:layout_margin="8dp"
+                        app:cardBackgroundColor="#302e2e"
+                        >
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -196,7 +210,9 @@
                                 android:layout_margin="5dp"
                                 android:padding="10dp"
                                 android:text="@string/Distance"
-                                android:textAppearance="?android:textAppearanceMedium" />
+                                android:textAppearance="?android:textAppearanceMedium"
+                                android:textColor="#ffff"
+                                />
 
                             <TextView
                                 android:layout_width="200dp"
@@ -204,7 +220,9 @@
                                 android:layout_margin="5dp"
                                 android:padding="10dp"
                                 android:text="@string/DeliverStatus2"
-                                android:textAppearance="?android:textAppearanceMedium" />
+                                android:textAppearance="?android:textAppearanceMedium"
+                                android:textColor="#ffff"
+                                />
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -229,7 +247,244 @@
 
                 </LinearLayout>
 
+
             </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card2.1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/CustomerName"
+                            android:textAppearance="?attr/textAppearanceHeadline6"
+
+
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/OderNumber"
+                            android:textAppearance="?attr/textAppearanceBody2"
+                            android:textColor="?android:attr/textColorSecondary"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:text="@string/DeliveryLocation"
+                            android:textAppearance="?attr/textAppearanceBody2"
+                            android:textColor="?android:attr/textColorSecondary"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:text="@string/DriverName"
+                            android:textAppearance="?attr/textAppearanceBody2"
+                            android:textColor="?android:attr/textColorSecondary"
+                            />
+
+                    </LinearLayout>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        app:cardBackgroundColor="#302e2e"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+
+                            <TextView
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:padding="10dp"
+                                android:text="@string/Distance"
+                                android:textAppearance="?android:textAppearanceMedium"
+                                android:textColor="#ffff"
+                                />
+
+                            <TextView
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:padding="10dp"
+                                android:text="@string/DeliverStatus2"
+                                android:textAppearance="?android:textAppearanceMedium"
+                                android:textColor="#ffff"
+                                />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:padding="1dp">
+
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="8dp"
+                                android:orientation="horizontal">
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card2.1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/CustomerName"
+                            android:textAppearance="?attr/textAppearanceHeadline6"
+
+
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/OderNumber"
+                            android:textAppearance="?attr/textAppearanceBody2"
+                            android:textColor="?android:attr/textColorSecondary"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:text="@string/DeliveryLocation"
+                            android:textAppearance="?attr/textAppearanceBody2"
+                            android:textColor="?android:attr/textColorSecondary"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:text="@string/DriverName"
+                            android:textAppearance="?attr/textAppearanceBody2"
+                            android:textColor="?android:attr/textColorSecondary"
+                            />
+
+                    </LinearLayout>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        app:cardBackgroundColor="#302e2e"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+
+                            <TextView
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:padding="10dp"
+                                android:text="@string/Distance"
+                                android:textAppearance="?android:textAppearanceMedium"
+                                android:textColor="#ffff"
+                                />
+
+                            <TextView
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:padding="10dp"
+                                android:text="@string/DeliverStatus2"
+                                android:textAppearance="?android:textAppearanceMedium"
+                                android:textColor="#ffff"
+                                />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:padding="1dp">
+
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="8dp"
+                                android:orientation="horizontal">
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
         </LinearLayout>
+
     </ScrollView>
 </LinearLayout>
