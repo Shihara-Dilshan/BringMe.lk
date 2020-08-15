@@ -16,7 +16,9 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class AdminDashActivity extends AppCompatActivity {
 
     private BottomNavigationView bottomNavigationView;
+    private AdminHome adminHome;
     private AdminDeliveryOrders adminDeliveryOrders;
+    private AdminOngoingDeliveries adminOngoingDeliveries;
 
 
     @Override
@@ -30,9 +32,10 @@ public class AdminDashActivity extends AppCompatActivity {
         }
 
         setContentView(R.layout.activity_admin_dash);
+        adminHome = new AdminHome();
         adminDeliveryOrders = new AdminDeliveryOrders();
 
-        nevigateAdminDash(adminDeliveryOrders);
+        nevigateAdminDash(adminHome);
 
         bottomNavigationView = findViewById(R.id.adminNavigationBar);
 
@@ -41,7 +44,7 @@ public class AdminDashActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 switch (menuItem.getItemId()){
                     case R.id.AdminDash:
-                        nevigateAdminDash(adminDeliveryOrders);
+                        nevigateAdminDash(adminHome);
                         return true;
 
                     default:
@@ -61,8 +64,17 @@ public class AdminDashActivity extends AppCompatActivity {
         fragmentTransaction.commit();
     }
 
-    public void changeMe(View view){
-        Intent intent = new Intent(this, AdminAssignDriver.class);
+    public void changetoadmindelivery(View view){
+        nevigateAdminDash(adminDeliveryOrders);
+    }
+    public void ongoingDelivers(View view) {
+        Intent intent = new Intent(this, AdminOngoingDeliveries.class);
+        intent.putExtra("Ruvin" , 222);
+        startActivity(intent);
+    }
+    public void DriversInTheSystem(View view) {
+        Intent intent = new Intent(this,Drivers.class );
+        intent.putExtra("Ruvin" , 222);
         startActivity(intent);
     }
 }
