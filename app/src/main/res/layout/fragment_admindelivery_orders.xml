@@ -71,25 +71,13 @@
                     </LinearLayout>
 
 
-                    <LinearLayout
-                        android:layout_width="wrap_content"
+                    <Button
+                        android:id="@+id/AssignDriver"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_margin="8dp"
-                        android:orientation="horizontal">
-
-                        <com.google.android.material.button.MaterialButton
-                            android:id="@+id/assignBtn1"
-                            style="?attr/borderlessButtonStyle"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginEnd="8dp"
-                            android:layout_marginRight="8dp"
-                            android:text="Assign Driver"
-                            android:onClick="AssignDriver"
-
-                            />
-
-                    </LinearLayout>
+                        android:text="Assign Driver"
+                        android:background="#009688"
+                        android:onClick="AssignDriver"/>
 
                 </LinearLayout>
 
@@ -141,21 +129,20 @@
                     </LinearLayout>
 
 
-                    <LinearLayout
+
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="8dp"
                         android:orientation="horizontal">
-                        <com.google.android.material.button.MaterialButton
-                            android:id="@+id/crdbutton"
-                            android:layout_width="wrap_content"
+                        <Button
+                            android:id="@+id/AssignDriver2"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginEnd="8dp"
                             android:text="Assign Driver"
-                            style="?attr/borderlessButtonStyle"
-                            android:layout_marginRight="8dp" />
+                            android:background="#009688"
+                            android:onClick="AssignDriver"/>
 
-                    </LinearLayout>
+
 
                 </LinearLayout>
 
@@ -206,20 +193,17 @@
                     </LinearLayout>
 
 
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="8dp"
-                        android:orientation="horizontal">
-                        <com.google.android.material.button.MaterialButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginEnd="8dp"
-                            android:text="Assign Driver"
-                            style="?attr/borderlessButtonStyle"
-                            android:layout_marginRight="8dp" />
 
-                    </LinearLayout>
+
+                        <Button
+                            android:id="@+id/AssignDriver3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Assign Driver"
+                            android:background="#009688"
+                            android:onClick="AssignDriver"/>
+
+
 
                 </LinearLayout>
 
@@ -275,15 +259,16 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="8dp"
                         android:orientation="horizontal">
-                        <com.google.android.material.button.MaterialButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginEnd="8dp"
-                            android:text="Assign Driver"
-                            style="?attr/borderlessButtonStyle"
-                            android:layout_marginRight="8dp" />
 
                     </LinearLayout>
+
+                    <Button
+                        android:id="@+id/AssignDriver4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Assign Driver"
+                        android:background="#009688"
+                        android:onClick="AssignDriver"/>
 
                 </LinearLayout>
 
@@ -332,23 +317,13 @@
                             android:textColor="?android:attr/textColorSecondary" />
 
                     </LinearLayout>
-
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="8dp"
-                        android:orientation="horizontal">
-                        <com.google.android.material.button.MaterialButton
-                            android:layout_width="wrap_content"
+                    <Button
+                            android:id="@+id/AssignDriver5"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginEnd="8dp"
                             android:text="Assign Driver"
-                            style="?attr/borderlessButtonStyle"
-                            android:layout_marginRight="8dp" />
-
-                    </LinearLayout>
-
+                            android:background="#009688"
+                            android:onClick="AssignDriver"/>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>

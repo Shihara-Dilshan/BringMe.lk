@@ -16,7 +16,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="95dp"
+                android:layout_marginLeft="78dp"
                 android:orientation="horizontal">
 
                 <TextView
@@ -50,14 +50,12 @@
                         android:text="Ramitha Bandara :"
                         android:textAppearance="?android:textAppearanceMedium" />
 
-                    <com.google.android.material.button.MaterialButton
-                        android:id="@+id/btn"
-                        android:layout_width="wrap_content"
+                    <Button
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="8dp"
                         android:text="Assign Driver"
-                        style="?attr/borderlessButtonStyle"
-                        android:layout_marginRight="8dp" />
+                        android:background="#009688"
+                        />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -99,14 +97,12 @@
                         android:text="Ramitha Bandara :"
                         android:textAppearance="?android:textAppearanceMedium" />
 
-                    <com.google.android.material.button.MaterialButton
-
-                        android:layout_width="wrap_content"
+                    <Button
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="8dp"
                         android:text="Assign Driver"
-                        style="?attr/borderlessButtonStyle"
-                        android:layout_marginRight="8dp" />
+                        android:background="#009688"
+                        />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -148,14 +144,12 @@
                         android:text="Ramesh Bandara :"
                         android:textAppearance="?android:textAppearanceMedium" />
 
-                    <com.google.android.material.button.MaterialButton
-
-                        android:layout_width="wrap_content"
+                    <Button
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="8dp"
                         android:text="Assign Driver"
-                        style="?attr/borderlessButtonStyle"
-                        android:layout_marginRight="8dp" />
+                        android:background="#009688"
+                        />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -197,14 +191,12 @@
                         android:text="Ramitha Bandara :"
                         android:textAppearance="?android:textAppearanceMedium" />
 
-                    <com.google.android.material.button.MaterialButton
-
-                        android:layout_width="wrap_content"
+                    <Button
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="8dp"
                         android:text="Assign Driver"
-                        style="?attr/borderlessButtonStyle"
-                        android:layout_marginRight="8dp" />
+                        android:background="#009688"
+                        />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -246,14 +238,12 @@
                         android:text="Ramitha Bandara :"
                         android:textAppearance="?android:textAppearanceMedium" />
 
-                    <com.google.android.material.button.MaterialButton
-
-                        android:layout_width="wrap_content"
+                    <Button
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="8dp"
                         android:text="Assign Driver"
-                        style="?attr/borderlessButtonStyle"
-                        android:layout_marginRight="8dp" />
+                        android:background="#009688"
+                        />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -295,14 +285,12 @@
                         android:text="Ramitha Bandara :"
                         android:textAppearance="?android:textAppearanceMedium" />
 
-                    <com.google.android.material.button.MaterialButton
-
-                        android:layout_width="wrap_content"
+                    <Button
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="8dp"
                         android:text="Assign Driver"
-                        style="?attr/borderlessButtonStyle"
-                        android:layout_marginRight="8dp" />
+                        android:background="#009688"
+                        />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -344,14 +332,12 @@
                         android:text="Ramitha Bandara :"
                         android:textAppearance="?android:textAppearanceMedium" />
 
-                    <com.google.android.material.button.MaterialButton
-
-                        android:layout_width="wrap_content"
+                    <Button
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="8dp"
                         android:text="Assign Driver"
-                        style="?attr/borderlessButtonStyle"
-                        android:layout_marginRight="8dp" />
+                        android:background="#009688"
+                        />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -393,14 +379,12 @@
                         android:text="Ramitha Bandara :"
                         android:textAppearance="?android:textAppearanceMedium" />
 
-                    <com.google.android.material.button.MaterialButton
-
-                        android:layout_width="wrap_content"
+                    <Button
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="8dp"
                         android:text="Assign Driver"
-                        style="?attr/borderlessButtonStyle"
-                        android:layout_marginRight="8dp" />
+                        android:background="#009688"
+                        />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -442,14 +426,12 @@
                         android:text="Ramitha Bandara :"
                         android:textAppearance="?android:textAppearanceMedium" />
 
-                    <com.google.android.material.button.MaterialButton
-
-                        android:layout_width="wrap_content"
+                    <Button
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="8dp"
                         android:text="Assign Driver"
-                        style="?attr/borderlessButtonStyle"
-                        android:layout_marginRight="8dp" />
+                        android:background="#009688"
+                        />
 
                     <LinearLayout
                         android:layout_width="match_parent"

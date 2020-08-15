@@ -31,7 +31,7 @@
 
 
                 <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/card3"
+                    android:id="@+id/card2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
@@ -51,70 +51,22 @@
 
                             />
 
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_margin="8dp"
-                            android:orientation="horizontal">
 
-                            <com.google.android.material.button.MaterialButton
-                                style="?attr/borderlessButtonStyle"
-                                android:layout_width="wrap_content"
+
+                            <Button
+
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:onClick="ongoingDelivers"
-                                android:text="Delivery Drivers" />
+                                android:text="On going Deliveries in the system"
+                                android:background="#2a2a2b"
+                                android:textColor="#ffff"
+                                android:onClick="ongoingDelivers"/>
 
-                        </LinearLayout>
+
 
                     </LinearLayout>
 
                 </com.google.android.material.card.MaterialCardView>
-
-                <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/card4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
-                    android:layout_weight="1">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="103dp"
-                            android:scaleType="centerCrop"
-                            app:srcCompat="@mipmap/addfood" />
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_margin="8dp"
-                            android:orientation="horizontal">
-
-                            <com.google.android.material.button.MaterialButton
-                                style="?attr/borderlessButtonStyle"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:onClick="DriversInTheSystem"
-                                android:text="Delivery Drivers" />
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </com.google.android.material.card.MaterialCardView>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/card3"
@@ -133,28 +85,32 @@
                             android:layout_width="match_parent"
                             android:layout_height="103dp"
                             android:scaleType="centerCrop"
-                            app:srcCompat="@mipmap/ongoing2"
+                            app:srcCompat="@mipmap/courier" />
 
-                            />
 
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_margin="8dp"
-                            android:orientation="horizontal">
 
-                            <com.google.android.material.button.MaterialButton
-                                style="?attr/borderlessButtonStyle"
-                                android:layout_width="wrap_content"
+                            <Button
+
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:onClick="ongoingDelivers"
-                                android:text="Delivery Drivers" />
+                                android:text="Delivery Drivers in the system"
+                                android:background="#2a2a2b"
+                                android:textColor="#ffff"
+                                android:onClick="DriversInTheSystem"/>
 
-                        </LinearLayout>
+
 
                     </LinearLayout>
 
                 </com.google.android.material.card.MaterialCardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/card4"
@@ -173,37 +129,73 @@
                             android:layout_width="match_parent"
                             android:layout_height="103dp"
                             android:scaleType="centerCrop"
-                            app:srcCompat="@mipmap/addfood" />
+                            app:srcCompat="@mipmap/deliver"
 
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_margin="8dp"
-                            android:orientation="horizontal">
+                            />
 
-                            <com.google.android.material.button.MaterialButton
-                                style="?attr/borderlessButtonStyle"
-                                android:layout_width="wrap_content"
+
+
+                            <Button
+
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:onClick="DriversInTheSystem"
-                                android:text="Delivery Drivers" />
+                                android:text="Delivery Orders From customer"
+                                android:background="#2a2a2b"
+                                android:textColor="#ffff"
+                                android:onClick="changetoadmindelivery"/>
 
-                        </LinearLayout>
+
 
                     </LinearLayout>
 
                 </com.google.android.material.card.MaterialCardView>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/card5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="103dp"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@mipmap/addfood" />
+
+
+
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Add foods to the system"
+                                android:background="#2a2a2b"
+                                android:textColor="#ffff"
+                                />
+
+
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp">
@@ -222,22 +214,18 @@
 
                             />
 
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_margin="8dp"
-                            android:orientation="horizontal">
 
-                            <com.google.android.material.button.MaterialButton
-                                style="?attr/borderlessButtonStyle"
+
+                            <Button
+
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_gravity="center"
-                                android:gravity="center"
-                                android:onClick="changetoadmindelivery"
-                                android:text="Delivery Drivers" />
+                                android:text="Add Button Name "
+                                android:background="#2a2a2b"
+                                android:textColor="#ffff"
+                                />
 
-                        </LinearLayout>
+
 
                     </LinearLayout>
 
@@ -245,6 +233,21 @@
 
 
             </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                >
+            </LinearLayout>
+            <Button
+                android:id="@+id/DriverLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Driver Login"
+                android:background="#2a2a2b"
+                android:textColor="#ffff"
+                android:onClick="DriverHome"/>
         </LinearLayout>
     </ScrollView>
 
