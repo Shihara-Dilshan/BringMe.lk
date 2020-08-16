@@ -2,15 +2,15 @@ package app.noobstack.eshoplk;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
-import android.widget.Button;
 import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -23,7 +23,12 @@ public class MainActivity extends AppCompatActivity {
     private HomeFragment homeFragment;
     private OrdersFragment ordersFragment;
     private ProfileFragment profileFragment;
-    private  SearchFragment searchFragment;
+    private SearchFragment searchFragment;
+    private ViewPastOrdersFragment viewPastOrdersFragment;
+    private ViewProcessingOrdersFragment viewProcessingOrdersFragment;
+
+    private CardView searchResult1;
+    private CardView searchResult2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,11 +42,18 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
+
+        searchResult1 = findViewById(R.id.search_result_1);
+        searchResult2 = findViewById(R.id.search_result_2);
+
         cartFragment = new CartFragment();
         homeFragment = new HomeFragment();
         ordersFragment = new OrdersFragment();
         profileFragment = new ProfileFragment();
         searchFragment = new SearchFragment();
+        viewPastOrdersFragment = new ViewPastOrdersFragment();
+        viewProcessingOrdersFragment = new ViewProcessingOrdersFragment();
+
 
         navigateFragment(homeFragment);
 
@@ -50,24 +62,19 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 switch (menuItem.getItemId()){
-                    case R.id.home:
-                        Toast.makeText(MainActivity.this, "Home Fragment needs to appear", Toast.LENGTH_SHORT).show();
+                    case R.id.Home:
                         navigateFragment(homeFragment);
                         return true;
-                    case R.id.search_ico:
-                        Toast.makeText(MainActivity.this, "search Fragment needs to appear", Toast.LENGTH_SHORT).show();
+                    case R.id.Search_ico:
                         navigateFragment(searchFragment);
                         return true;
-                    case R.id.cart_ico:
-                        Toast.makeText(MainActivity.this, "cart Fragment needs to appear", Toast.LENGTH_SHORT).show();
+                    case R.id.Cart_ico:
                         navigateFragment(cartFragment);
                         return true;
-                    case R.id.order_ico:
-                        Toast.makeText(MainActivity.this, "order Fragment needs to appear", Toast.LENGTH_SHORT).show();
+                    case R.id.Order_ico:
                         navigateFragment(ordersFragment);
                         return true;
-                    case R.id.profile_ico:
-                        Toast.makeText(MainActivity.this, "profile Fragment needs to appear", Toast.LENGTH_SHORT).show();
+                    case R.id.Profile_ico:
                         navigateFragment(profileFragment );
                         return true;
                     default:
@@ -87,7 +94,40 @@ public class MainActivity extends AppCompatActivity {
 
     public void adminDash(View view) {
         Intent intent = new Intent(this, AdminDashActivity.class);
-        intent.putExtra("shihara" , 222);
         startActivity(intent);
+        overridePendingTransition( R.anim.slide_in_up, R.anim.slide_out_up );
     }
+
+    public void viewCategory(View view) {
+        Intent intent = new Intent(this, ViewCategory.class);
+        startActivity(intent);
+        overridePendingTransition( R.anim.slide_in_up, R.anim.slide_out_up );
+    }
+
+
+    public void ViewPAstOrders(View view) {
+        navigateFragment(viewPastOrdersFragment);
+    }
+
+    public void ViewOngoingOrders(View view) {
+        navigateFragment(viewProcessingOrdersFragment);
+    }
+
+    public void editOrder(View view) {
+        Intent intent = new Intent(this, EditProcessingOrder.class);
+        startActivity(intent);
+        overridePendingTransition( R.anim.slide_in_up, R.anim.slide_out_up );
+    }
+
+    public void cancelMsg(View view) {
+        Toast.makeText(this, "Your Order has been cancelled", Toast.LENGTH_SHORT).show();
+    }
+
+    public void negigatePayment(View view) {
+        Intent intent = new Intent(this, PaymentActivity.class);
+        startActivity(intent);
+        overridePendingTransition( R.anim.slide_in_up, R.anim.slide_out_up );
+    }
+
+
 }

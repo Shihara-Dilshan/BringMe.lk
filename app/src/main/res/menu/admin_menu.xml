@@ -6,12 +6,12 @@
         android:icon="@drawable/home"
         app:showAsAction="always" />
 
-    <item android:id="@+id/Food_ico"
+    <item android:id="@+id/AdminFood_ico"
         android:title="Foods"
         android:icon="@drawable/food"
         app:showAsAction="always" />
 
-    <item android:id="@+id/category_ico"
+    <item android:id="@+id/adminCategory_ico"
         android:title="Categories"
         android:icon="@drawable/category"
         app:showAsAction="always" />

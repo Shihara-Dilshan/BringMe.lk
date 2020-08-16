@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PaymentSuccessActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:text="@string/thank_you"
+        android:textColorHint="#FFFFFF"
+        android:textSize="36sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="357dp"
+        android:layout_marginTop="35dp"
+        android:contentDescription="@string/success_payment"
+        android:src="@mipmap/courier" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:gravity="center"
+        android:text="Your Order has been places"
+        android:textSize="24sp" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_background"
+        android:text="@string/view_order" />
+</LinearLayout>
