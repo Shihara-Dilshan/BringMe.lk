@@ -170,15 +170,15 @@
                             app:srcCompat="@mipmap/addfood" />
 
 
+                        <Button
 
-                            <Button
-
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Add foods to the system"
-                                android:background="#2a2a2b"
-                                android:textColor="#ffff"
-                                />
+                            android:id="@+id/btnManageFood"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#2a2a2b"
+                            android:onClick="manageFood"
+                            android:text="@string/manageFood"
+                            android:textColor="#ffff" />
 
 
 
@@ -215,15 +215,15 @@
                             />
 
 
+                        <Button
 
-                            <Button
-
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Add Button Name "
-                                android:background="#2a2a2b"
-                                android:textColor="#ffff"
-                                />
+                            android:id="@+id/btnManageCategories"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#2a2a2b"
+                            android:onClick="manageCategory"
+                            android:text="@string/manageCategories"
+                            android:textColor="#ffff" />
 
 
 

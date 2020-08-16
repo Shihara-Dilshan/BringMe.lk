@@ -14,6 +14,12 @@ public class EditCategoryActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_category);
+        //hide the top title bar
+        try {
+            this.getSupportActionBar().hide();
+        } catch (NullPointerException e) {
+        }
+
         Button btnSubmit = (Button) findViewById(R.id.btnSubmitCategoryChanges);
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
