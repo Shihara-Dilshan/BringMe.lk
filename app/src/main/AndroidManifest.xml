@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AdminDashActivity"></activity>
+        <activity android:name=".EditCategoryActivity"></activity>
+        <activity android:name=".AddNewCategoryActivity" />
+        <activity android:name=".ManageCategoryActivity" />
+        <activity android:name=".EditFoodActivity" />
+        <activity android:name=".AddNewFoodItemActivity" />
+        <activity android:name=".FoodCategoryActivity" />
+        <activity android:name=".ManageFoodActivity" />
+        <activity android:name=".AdminDashActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
