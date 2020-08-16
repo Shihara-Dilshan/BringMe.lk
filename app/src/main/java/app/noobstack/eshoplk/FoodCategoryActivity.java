@@ -17,6 +17,12 @@ public class FoodCategoryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_food_category);
 
+        //hide the top title bar
+        try {
+            this.getSupportActionBar().hide();
+        } catch (NullPointerException e) {
+        }
+
         Button btnAddItem = (Button) findViewById(R.id.btnAddFoodItem);
         btnAddItem.setOnClickListener(new View.OnClickListener() {
             @Override

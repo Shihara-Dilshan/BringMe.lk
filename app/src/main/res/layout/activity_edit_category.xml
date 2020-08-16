@@ -27,7 +27,7 @@
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
-                android:layout_height="69dp"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
@@ -35,40 +35,40 @@
                 android:gravity="center_horizontal"
                 android:text="@string/edit_category"
                 android:textAlignment="center"
-                android:textSize="36sp" />
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
-                android:layout_height="62dp"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="6dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="6dp"
                 android:text="@string/category_name"
-                android:textSize="28sp" />
+                android:textSize="20sp" />
 
             <EditText
                 android:id="@+id/editTextTextPersonName"
                 android:layout_width="match_parent"
-                android:layout_height="62dp"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="6dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:textSize="28sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
-                android:layout_height="62dp"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="6dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="6dp"
                 android:text="@string/item_description"
-                android:textSize="28sp" />
+                android:textSize="20sp" />
 
             <EditText
                 android:id="@+id/editTextTextPersonName4"
@@ -85,18 +85,18 @@
                 android:scrollbarStyle="insideInset"
                 android:scrollbars="vertical"
                 android:scrollHorizontally="false"
-                android:textSize="28sp" />
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btnSubmitCategoryChanges"
                 android:layout_width="match_parent"
                 android:layout_height="74dp"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
                 android:text="@string/saveChanges_btn"
-                android:textSize="24sp" />
+                android:textSize="20sp" />
         </LinearLayout>
     </ScrollView>
 

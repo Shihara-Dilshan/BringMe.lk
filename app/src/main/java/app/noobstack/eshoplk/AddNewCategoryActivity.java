@@ -15,12 +15,18 @@ public class AddNewCategoryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_new_category);
 
+        //hide the top title bar
+        try {
+            this.getSupportActionBar().hide();
+        } catch (NullPointerException e) {
+        }
+
         Button btnAdd = (Button) findViewById(R.id.btnSubmitNewCategory);
         btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(getApplicationContext(), FoodCategoryActivity.class);
+                Intent intent = new Intent(getApplicationContext(), ManageCategoryActivity.class);
                 startActivity(intent);
                 Toast.makeText(getApplicationContext(),"You have successfully added the new food item",Toast.LENGTH_SHORT).show();
             }

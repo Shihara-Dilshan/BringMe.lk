@@ -86,4 +86,14 @@ public class AdminDashActivity extends AppCompatActivity {
         intent.putExtra("Ruvin" , 222);
         startActivity(intent);
     }
+
+    public void manageFood(View view){
+        Intent intent = new Intent (this, ManageFoodActivity.class);
+        startActivity(intent);
+    }
+
+    public void manageCategory(View view){
+        Intent intent = new Intent (this, ManageCategoryActivity.class);
+        startActivity(intent);
+    }
 }

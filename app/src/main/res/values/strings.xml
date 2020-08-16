@@ -47,6 +47,8 @@
     <string name="edit_food_item">Edit Food Item</string>
     <string name="edit_category">Edit Category</string>
     <string name="saveChanges_btn">Save Changes </string>
+    <string name="manageFood">Manage Food</string>
+    <string name="manageCategories">Manage Categories</string>
 
 
     <string name="DeliveryOrders">Delivery Orders From Customer</string>

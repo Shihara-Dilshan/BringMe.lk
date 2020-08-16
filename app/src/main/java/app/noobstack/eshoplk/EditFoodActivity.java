@@ -15,6 +15,12 @@ public class EditFoodActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_food);
 
+        //hide the top title bar
+        try {
+            this.getSupportActionBar().hide();
+        } catch (NullPointerException e) {
+        }
+
         Button btnSubmit = (Button) findViewById(R.id.btnSubmitChanges);
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override

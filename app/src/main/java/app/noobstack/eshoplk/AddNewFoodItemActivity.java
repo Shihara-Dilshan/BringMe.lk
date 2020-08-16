@@ -15,6 +15,12 @@ public class AddNewFoodItemActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_new_food_item);
 
+        //hide the top title bar
+        try {
+            this.getSupportActionBar().hide();
+        } catch (NullPointerException e) {
+        }
+
         Button btnAddItem = (Button) findViewById(R.id.btnSubmitNewItem);
         btnAddItem.setOnClickListener(new View.OnClickListener() {
             @Override

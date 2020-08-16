@@ -15,6 +15,12 @@ public class ManageFoodActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_manage_food);
 
+        //hide the top title bar
+        try {
+            this.getSupportActionBar().hide();
+        } catch (NullPointerException e) {
+        }
+
         AdapterView.OnItemClickListener itemClickListener = new AdapterView.OnItemClickListener(){
 
             @Override
