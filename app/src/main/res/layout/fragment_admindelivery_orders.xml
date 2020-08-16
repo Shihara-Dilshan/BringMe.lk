@@ -45,6 +45,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/OderNumber"
+                            android:textSize="8dp"
                             android:textAppearance="?attr/textAppearanceHeadline6"
                             />
 
@@ -54,6 +55,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="9dp"
+                            android:textSize="8dp"
                             android:text="@string/CustomerName"
                             android:textAppearance="?attr/textAppearanceBody2"
                             android:textColor="?android:attr/textColorSecondary"
@@ -64,6 +66,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="15dp"
+                            android:textSize="8dp"
                             android:text="@string/DeliveryLocation"
                             android:textAppearance="?attr/textAppearanceBody2"
                             android:textColor="?android:attr/textColorSecondary" />
@@ -107,12 +110,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/OderNumber"
+                            android:textSize="8dp"
                             android:textAppearance="?attr/textAppearanceHeadline6"
                             />
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="9dp"
+                            android:textSize="8dp"
                             android:text="@string/CustomerName"
                             android:textAppearance="?attr/textAppearanceBody2"
                             android:textColor="?android:attr/textColorSecondary"
@@ -122,6 +127,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="15dp"
+                            android:textSize="8dp"
                             android:text="@string/DeliveryLocation"
                             android:textAppearance="?attr/textAppearanceBody2"
                             android:textColor="?android:attr/textColorSecondary" />
@@ -171,6 +177,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/OderNumber"
+                            android:textSize="8dp"
                             android:textAppearance="?attr/textAppearanceHeadline6"
                             />
                         <TextView
@@ -178,6 +185,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="9dp"
                             android:text="@string/CustomerName"
+                            android:textSize="8dp"
                             android:textAppearance="?attr/textAppearanceBody2"
                             android:textColor="?android:attr/textColorSecondary"
                             />
@@ -186,6 +194,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="15dp"
+                            android:textSize="8dp"
                             android:text="@string/DeliveryLocation"
                             android:textAppearance="?attr/textAppearanceBody2"
                             android:textColor="?android:attr/textColorSecondary" />
@@ -232,12 +241,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/OderNumber"
+                            android:textSize="8dp"
                             android:textAppearance="?attr/textAppearanceHeadline6"
                             />
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="9dp"
+                            android:textSize="8dp"
                             android:text="@string/CustomerName"
                             android:textAppearance="?attr/textAppearanceBody2"
                             android:textColor="?android:attr/textColorSecondary"
@@ -249,7 +260,9 @@
                             android:layout_marginTop="15dp"
                             android:text="@string/DeliveryLocation"
                             android:textAppearance="?attr/textAppearanceBody2"
-                            android:textColor="?android:attr/textColorSecondary" />
+                            android:textColor="?android:attr/textColorSecondary"
+                            android:textSize="8dp"
+                            />
 
                     </LinearLayout>
 
@@ -303,6 +316,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="9dp"
+                            android:textSize="8dp"
                             android:text="@string/CustomerName"
                             android:textAppearance="?attr/textAppearanceBody2"
                             android:textColor="?android:attr/textColorSecondary"
@@ -312,6 +326,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="15dp"
+                            android:textSize="8dp"
                             android:text="@string/DeliveryLocation"
                             android:textAppearance="?attr/textAppearanceBody2"
                             android:textColor="?android:attr/textColorSecondary" />

@@ -6,11 +6,12 @@
     <string name="Orders">Orders</string>
     <string name="Profile">Profile</string>
 
+
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="OderNumber">Order Number :OD123</string>
     <string name="CustomerName">Customer Name:Ruvin Wijesinghe</string>
     <string name="DeliveryLocation">Delivery Location:No 89 Main Street Mathale</string>
-
     <string name="top_categories">Top Categories</string>
     <string name="popular_foods">Popular Foods</string>
 
@@ -61,6 +62,12 @@
     <string name="DeliverStatus2">Pending</string>
     <string name="ongoingDeliveries">On Going Deliveries</string>
     <string name="Distance">Distance to deliver:12KM</string>
+
+    <string name="add_button_name">Add Button Name</string>
+    <string name="drivers_in_the_system">Drivers in the system</string>
+    <string name="ramitha_bandara">Ramitha Bandara :</string>
+    <string name="xxxxxxxxx">XXXXXXXXX :</string>
+
     <string name="success_payment">Success payment</string>
     <string name="thank_you">Thank You</string>
     <string name="view_order">View Order</string>
@@ -93,5 +100,6 @@
     <string name="fast_delivery_tag">Fast Delivery</string>
     <string name="cancel_order">Cancel order possible 5 minutes</string>
     <string name="purchurse_tag">Purchurse</string>
+
 
 </resources>
