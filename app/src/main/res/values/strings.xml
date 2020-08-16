@@ -63,4 +63,17 @@
     <string name="thank_you">Thank You</string>
     <string name="view_order">View Order</string>
 
+
+
+    <string name="popular_pizza">Popular Pizza</string>
+    <string name="toppizza1">this image shows three plates with pizzas</string>
+    <string name="disc_pizza1">Name : Indian Chopsy salad by Chef Malan</string>
+    <string name="breif_desc_pizza1">Description :Check our Salad in different flavors and different prices</string>
+    <string name="pizza1_price">Rs 320</string>
+    <string name="add_to_cart_pizza">Add to Cart</string>
+    <string name="order_now_pizza">Order Now</string>
+    <string name="pizaa_cat_3">Buns</string>
+    <string name="desc_pizz_3">Check our Buns in different flavors and different prices</string>
+    <string name="price_pizz_3">Rs 320</string>
+
 </resources>
