@@ -4,35 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PaymentSuccessActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".PaymentSuccessActivity">
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="114dp"
+        android:layout_marginTop="35dp"
         android:gravity="center"
         android:text="@string/thank_you"
-        android:textSize="25sp"
-        android:layout_marginTop="35dp"/>
+        android:textColorHint="#FFFFFF"
+        android:textSize="36sp" />
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@mipmap/category1"
+        android:layout_height="357dp"
         android:layout_marginTop="35dp"
-        android:contentDescription="@string/success_payment"/>
+        android:contentDescription="@string/success_payment"
+        android:src="@mipmap/courier" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Your Order has been places"
+        android:layout_margin="40dp"
         android:gravity="center"
-        android:layout_margin="30dp"/>
+        android:text="Your Order has been places"
+        android:textSize="24sp" />
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
+        android:layout_margin="20dp"
         android:background="@drawable/button_background"
-        android:text="@string/view_order"
-        android:layout_margin="20dp"/>
+        android:text="@string/view_order" />
 </LinearLayout>
