@@ -23,4 +23,7 @@
     <string name="DeliverStatus2">Pending</string>
     <string name="ongoingDeliveries">On Going Deliveries</string>
     <string name="Distance">Distance to deliver:12KM</string>
+    <string name="success_payment">Success payment</string>
+    <string name="thank_you">Thank You</string>
+    <string name="view_order">View Order</string>
 </resources>
