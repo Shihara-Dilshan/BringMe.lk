@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">BringMe.lk</string>
+    <string name="Home">Home</string>
+    <string name="Search">Search</string>
+    <string name="Cart">Cart</string>
+    <string name="Orders">Orders</string>
+    <string name="Profile">Profile</string>
+
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="OderNumber">Order Number :OD123</string>
+    <string name="CustomerName">Customer Name:Ruvin Wijesinghe</string>
+    <string name="DeliveryLocation">Delivery Location:No 89 Main Street Mathale</string>
+    <string name="top_categories">Top Categories</string>
+    <string name="popular_foods">Popular Foods</string>
+
+
+
+    <!-- restaurant Management Strings-->
+    <string-array name="options">
+        <item>Burgers</item>
+        <item>Pizza</item>
+        <item>Dessert</item>
+        <item>Salads</item>
+        <item>Submarines</item>
+        <item>Milkshakes</item>
+
+    </string-array>
+    <string name="add_new_category">Add New Category</string>
+    <string name="select_category">Select a Category</string>
+    <string name="category">Category</string>
+    <string name="add_food_item">Add New Food Item</string>
+    <string name="item_name">Item Name </string>
+    <string name="category_name">Category Name </string>
+    <string name="item_price">Price </string>
+    <string name="item_description">Description </string>
+    <string name="btnEdit">Edit </string>
+    <string name="btnDelete">Delete </string>
+    <string name="burgers">Burgers </string>
+    <string name="enter_item_name_hint">Enter Item Name</string>
+    <string name="enter_category_hint">Enter Category Name</string>
+    <string name="enter_item_description_hint">Enter Item Description Here..</string>
+    <string name="enter_category_description_hint">Enter Category Description Here..</string>
+    <string name="enter_item_price_hint">Rs. </string>
+    <string name="upload_image">Upload An Image</string>
+    <string name="submit_btn">Submit </string>
+    <string name="edit_food_item">Edit Food Item</string>
+    <string name="edit_category">Edit Category</string>
+    <string name="saveChanges_btn">Save Changes </string>
+    <string name="manageFood">Manage Food</string>
+    <string name="manageCategories">Manage Categories</string>
+
+
+    <string name="DeliveryOrders">Delivery Orders From Customer</string>
+    <string name="Drivers">Drivers In The System</string>
+    <string name="DriverName">Driver Name :XXXXXXXXXXX</string>
+    <string name="ordersfordeliver">Orders For Deliver</string>
+    <string name="Driverstatus">Bussy</string>
+    <string name="Driverstatus2">Free</string>
+    <string name="DeliverStatus1">Delivered</string>
+    <string name="DeliverStatus2">Pending</string>
+    <string name="ongoingDeliveries">On Going Deliveries</string>
+    <string name="Distance">Distance to deliver:12KM</string>
+
+    <string name="add_button_name">Add Button Name</string>
+    <string name="drivers_in_the_system">Drivers in the system</string>
+    <string name="ramitha_bandara">Ramitha Bandara :</string>
+    <string name="xxxxxxxxx">XXXXXXXXX :</string>
+
+    <string name="success_payment">Success payment</string>
+    <string name="thank_you">Thank You</string>
+    <string name="view_order">View Order</string>
+
+
+
+    <string name="popular_pizza">Popular Pizza</string>
+    <string name="toppizza1">this image shows three plates with pizzas</string>
+    <string name="disc_pizza1">Name : Indian Chopsy salad by Chef Malan</string>
+    <string name="breif_desc_pizza1">Description :Check our Salad in different flavors and different prices</string>
+    <string name="pizza1_price">Rs 320</string>
+    <string name="add_to_cart_pizza">Add to Cart</string>
+    <string name="order_now_pizza">Order Now</string>
+    <string name="pizaa_cat_3">Buns</string>
+    <string name="desc_pizz_3">Check our Buns in different flavors and different prices</string>
+    <string name="price_pizz_3">Rs 320</string>
+    <string name="about_to_purchuse">This image show the item that about puchuse</string>
+    <string name="initial_item_count">count = 1</string>
+    <string name="incrememnt_item_order">-</string>
+    <string name="decrement_item_count">+</string>
+    <string name="deliver_location_tag">Deliver Location</string>
+    <string name="address_hint">55/F Alpapalawala</string>
+    <string name="your_bill_tag">Your Bill</string>
+    <string name="base_price_price">Base Price</string>
+    <string name="base_price">Rs. 320</string>
+    <string name="deliver_tip_tag">Deliver Tip</string>
+    <string name="deliver_tip">Rs. 30</string>
+    <string name="total_price_tag">Total Price</string>
+    <string name="total_price">Rs. 350</string>
+    <string name="fast_delivery_tag">Fast Delivery</string>
+    <string name="cancel_order">Cancel order possible 5 minutes</string>
+    <string name="purchurse_tag">Purchurse</string>
+
+
+</resources>
