@@ -5,7 +5,7 @@
     <string name="Cart">Cart</string>
     <string name="Orders">Orders</string>
     <string name="Profile">Profile</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="OderNumber">Order Number :OD123</string>
     <string name="CustomerName">Customer Name:Ruvin Wijesinghe</string>
@@ -13,6 +13,42 @@
 
     <string name="top_categories">Top Categories</string>
     <string name="popular_foods">Popular Foods</string>
+
+
+
+    <!-- restaurant Management Strings-->
+    <string-array name="options">
+        <item>Burgers</item>
+        <item>Pizza</item>
+        <item>Dessert</item>
+        <item>Salads</item>
+        <item>Submarines</item>
+        <item>Milkshakes</item>
+
+    </string-array>
+    <string name="add_new_category">Add New Category</string>
+    <string name="select_category">Select a Category</string>
+    <string name="category">Category</string>
+    <string name="add_food_item">Add New Food Item</string>
+    <string name="item_name">Item Name </string>
+    <string name="category_name">Category Name </string>
+    <string name="item_price">Price </string>
+    <string name="item_description">Description </string>
+    <string name="btnEdit">Edit </string>
+    <string name="btnDelete">Delete </string>
+    <string name="burgers">Burgers </string>
+    <string name="enter_item_name_hint">Enter Item Name</string>
+    <string name="enter_category_hint">Enter Category Name</string>
+    <string name="enter_item_description_hint">Enter Item Description Here..</string>
+    <string name="enter_category_description_hint">Enter Category Description Here..</string>
+    <string name="enter_item_price_hint">Rs. </string>
+    <string name="upload_image">Upload An Image</string>
+    <string name="submit_btn">Submit </string>
+    <string name="edit_food_item">Edit Food Item</string>
+    <string name="edit_category">Edit Category</string>
+    <string name="saveChanges_btn">Save Changes </string>
+
+
     <string name="DeliveryOrders">Delivery Orders From Customer</string>
     <string name="Drivers">Drivers In The System</string>
     <string name="DriverName">Driver Name :XXXXXXXXXXX</string>
@@ -26,4 +62,5 @@
     <string name="success_payment">Success payment</string>
     <string name="thank_you">Thank You</string>
     <string name="view_order">View Order</string>
+
 </resources>
