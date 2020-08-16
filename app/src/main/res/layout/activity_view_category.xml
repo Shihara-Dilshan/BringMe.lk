@@ -36,7 +36,7 @@
                     android:layout_margin="5dp"
                     android:padding="10dp"
                     android:gravity="center"
-                    android:text="Popular Pizza"
+                    android:text="@string/popular_pizza"
                     android:textAppearance="?android:textAppearanceMedium" />
 
                 <androidx.cardview.widget.CardView
@@ -54,7 +54,9 @@
                             android:layout_height="240dp"
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="5dp"
-                            android:src="@mipmap/category2" />
+                            android:src="@mipmap/category2"
+                            android:contentDescription="@string/toppizza1"
+                            />
 
                         <TextView
                             android:id="@+id/name"
@@ -62,7 +64,7 @@
                             android:layout_height="wrap_content"
                             android:maxLines="1"
                             android:padding="4dp"
-                            android:text="Name : Indian Chopsy salad by Chef Malan" />
+                            android:text="@string/disc_pizza1" />
 
                         <TextView
                             android:id="@+id/disc"
@@ -70,7 +72,7 @@
                             android:layout_height="wrap_content"
                             android:maxLines="4"
                             android:padding="4dp"
-                            android:text="Description :Check our Salad in different flavors and different prices" />
+                            android:text="@string/breif_desc_pizza1" />
 
                         <TextView
                             android:id="@+id/price"
@@ -78,7 +80,7 @@
                             android:layout_height="wrap_content"
                             android:maxLines="5"
                             android:padding="4dp"
-                            android:text="Rs 300 - 1200" />
+                            android:text="@string/pizza1_price" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -95,15 +97,21 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="Add to Cart" />
+                                    android:text="@string/add_to_cart_pizza"
+                                    android:background="#009688"
+                                    android:layout_margin="10dp"
+                                    android:textColor="#ffffff"/>
 
                                 <Button
                                     android:id="@+id/button2"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="Order Now"
-                                    android:onClick="orderNow"/>
+                                    android:text="@string/order_now_pizza"
+                                    android:onClick="orderNow"
+                                    android:background="#009688"
+                                    android:layout_margin="10dp"
+                                    android:textColor="#ffffff"/>
 
                             </LinearLayout>
                         </LinearLayout>
@@ -126,36 +134,32 @@
                             android:layout_height="240dp"
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="5dp"
-                            android:src="@mipmap/category1" />
+                            android:src="@mipmap/category1"
+                            android:contentDescription="This image shows second pizza type"/>
 
                         <TextView
-                            android:id="@+id/name3"
+                            android:id="@+id/name_pizza2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:maxLines="1"
                             android:padding="4dp"
-                            android:text="Pizza"
-                            android:textAppearance="?android:textAppearanceMedium" />
+                            android:text="@string/disc_pizza1" />
 
                         <TextView
-                            android:id="@+id/disc3"
+                            android:id="@+id/disc_pizz2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:maxLines="5"
+                            android:maxLines="4"
                             android:padding="4dp"
-                            android:text="Check our pizza in different flavors and different prices" />
+                            android:text="@string/breif_desc_pizza1" />
 
                         <TextView
-                            android:id="@+id/price3"
+                            android:id="@+id/price_pizza2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
                             android:maxLines="5"
                             android:padding="4dp"
-                            android:text="Rs 400 - 800" />
-
+                            android:text="@string/pizza1_price" />
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -171,14 +175,20 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="Add to Cart" />
+                                    android:text="@string/add_to_cart_pizza"
+                                    android:background="#009688"
+                                    android:layout_margin="10dp"
+                                    android:textColor="#ffffff"/>
 
                                 <Button
                                     android:id="@+id/button4"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="Order Now" />
+                                    android:text="@string/order_now_pizza"
+                                    android:background="#009688"
+                                    android:layout_margin="10dp"
+                                    android:textColor="#ffffff"/>
 
                             </LinearLayout>
                         </LinearLayout>
@@ -203,7 +213,8 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginTop="25dp"
                             android:layout_marginRight="5dp"
-                            android:src="@mipmap/category3" />
+                            android:src="@mipmap/category3"
+                            android:contentDescription="this image shows a 3rd kind of pizza"/>
 
                         <TextView
                             android:id="@+id/name4"
@@ -212,7 +223,7 @@
                             android:layout_gravity="center"
                             android:maxLines="1"
                             android:padding="4dp"
-                            android:text="Buns"
+                            android:text="@string/pizaa_cat_3"
                             android:textAppearance="?android:textAppearanceMedium" />
 
                         <TextView
@@ -222,7 +233,7 @@
                             android:layout_gravity="center"
                             android:maxLines="5"
                             android:padding="4dp"
-                            android:text="Check our Buns in different flavors and different prices" />
+                            android:text="@string/desc_pizz_3" />
 
                         <TextView
                             android:id="@+id/price4"
@@ -231,7 +242,7 @@
                             android:layout_gravity="center"
                             android:maxLines="5"
                             android:padding="4dp"
-                            android:text="Rs 300 - 1000" />
+                            android:text="@string/price_pizz_3" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -242,14 +253,20 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="Add to Cart" />
+                                android:text="@string/add_to_cart_pizza"
+                                android:background="#009688"
+                                android:layout_margin="10dp"
+                                android:textColor="#ffffff"/>
 
                             <Button
                                 android:id="@+id/button6"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="Order Now" />
+                                android:text="@string/order_now_pizza"
+                                android:background="#009688"
+                                android:layout_margin="10dp"
+                                android:textColor="#ffffff"/>
 
                         </LinearLayout>
 

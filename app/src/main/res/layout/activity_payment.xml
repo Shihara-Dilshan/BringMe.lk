@@ -105,7 +105,18 @@
         android:text="Other"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"/>
+
         </LinearLayout>
+
+
     </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_background"
+        android:onClick="confirmOrder"
+        android:text="Confirm" />
 
 </LinearLayout>
