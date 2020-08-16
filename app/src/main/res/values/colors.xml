@@ -6,4 +6,5 @@
     <color name="colorPrimaryButton">#009688</color>
     <color name="bottomBar">#FF7E0AAF</color>
     <color name="whiteText">#ffffff</color>
+    <color name="my_button_color">#009688</color>
 </resources>

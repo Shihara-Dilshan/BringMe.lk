@@ -40,7 +40,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="267dp"
                     android:layout_margin="5dp"
-                    android:src="@mipmap/category2" />
+                    android:src="@mipmap/category2"
+                    android:contentDescription="@string/about_to_purchuse"/>
 
 
 
@@ -53,14 +54,14 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="count = 1"
+                        android:text="@string/initial_item_count"
                         android:layout_weight="10"
                         android:textSize="20sp"
                         android:id="@+id/counterFoods"/>
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="-"
+                        android:text="@string/incrememnt_item_order"
                         android:layout_weight="1"
                         android:id="@+id/orderItemDecremement"
                         android:background="#009688"
@@ -69,7 +70,7 @@
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="+"
+                        android:text="@string/decrement_item_count"
                         android:textColor="#ffffff"
                         android:layout_weight="1"
                         android:id="@+id/orderItemIncremement"
@@ -87,13 +88,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Deliver Location"
+                        android:text="@string/deliver_location_tag"
                         android:layout_weight="1"
                         android:textSize="18sp"/>
                     <EditText
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:hint="55/F Alpapalawala"
+                        android:hint="@string/address_hint"
                         android:layout_weight="1"
                         />
 
@@ -101,7 +102,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Your Bill"
+                    android:text="@string/your_bill_tag"
                     android:layout_weight="1"
                     android:textSize="18sp"
                     android:layout_gravity="center"
@@ -115,14 +116,37 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Base Price"
+                        android:text="@string/base_price_price"
                         android:layout_weight="1"
                         android:layout_marginBottom="10dp"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Rs. 320"
+                        android:text="@string/base_price"
+                        android:layout_weight="1"
+                        android:id="@+id/basePrice"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/deliver_tip_tag"
+                        android:layout_weight="1"
+                        android:layout_marginBottom="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/deliver_tip"
                         android:layout_weight="1"
                         android:layout_marginBottom="10dp"
                         />
@@ -138,35 +162,14 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Deliver Tip"
+                        android:text="@string/total_price_tag"
                         android:layout_weight="1"
                         android:layout_marginBottom="10dp"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Rs. 30"
-                        android:layout_weight="1"
-                        android:layout_marginBottom="10dp"
-                        />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_margin="5dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Total Price"
-                        android:layout_weight="1"
-                        android:layout_marginBottom="10dp"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Rs. 350"
+                        android:text="@string/total_price"
+                        android:id="@+id/totalPrice"
                         android:layout_weight="1"
                         android:layout_marginBottom="10dp"
                         />
@@ -178,7 +181,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Fast Delivery"
+                    android:text="@string/fast_delivery_tag"
                     android:layout_weight="3"
                     android:textColor="#009688"
                     android:layout_gravity="center"
@@ -189,7 +192,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cancel order possible 5 minutes"
+                    android:text="@string/cancel_order"
                     android:layout_weight="3"
                     android:textColor="#009688"
                     android:layout_gravity="center"
@@ -200,11 +203,12 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Purchurse"
+                    android:text="@string/purchurse_tag"
                     android:padding="5dp"
                     android:background="#009688"
                     android:layout_margin="5dp"
-                    android:textColor="#ffffff"/>
+                    android:textColor="#ffffff"
+                    android:onClick="paymenthandler"/>
 
 
 
