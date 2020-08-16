@@ -20,12 +20,15 @@
                 android:orientation="horizontal">
 
                 <TextView
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="15dp"
                     android:padding="10dp"
-                    android:text="Drivers in the system"
-                    android:textAppearance="?android:textAppearanceMedium" />
+                    android:text="@string/drivers_in_the_system"
+                    android:textAppearance="?android:textAppearanceMedium"
+
+                    />
 
 
             </LinearLayout>
@@ -47,7 +50,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:padding="10dp"
-                        android:text="Ramitha Bandara :"
+                        android:text="@string/ramitha_bandara"
                         android:textAppearance="?android:textAppearanceMedium" />
 
                     <Button
@@ -94,7 +97,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:padding="10dp"
-                        android:text="Ramitha Bandara :"
+                        android:text="@string/ramitha_bandara"
                         android:textAppearance="?android:textAppearanceMedium" />
 
                     <Button
@@ -141,7 +144,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:padding="10dp"
-                        android:text="Ramesh Bandara :"
+                        android:text="@string/ramitha_bandara"
                         android:textAppearance="?android:textAppearanceMedium" />
 
                     <Button
@@ -188,7 +191,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:padding="10dp"
-                        android:text="Ramitha Bandara :"
+                        android:text="@string/ramitha_bandara"
                         android:textAppearance="?android:textAppearanceMedium" />
 
                     <Button
@@ -235,7 +238,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:padding="10dp"
-                        android:text="Ramitha Bandara :"
+                        android:text="@string/ramitha_bandara"
                         android:textAppearance="?android:textAppearanceMedium" />
 
                     <Button
@@ -282,7 +285,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:padding="10dp"
-                        android:text="Ramitha Bandara :"
+                        android:text="@string/ramitha_bandara"
                         android:textAppearance="?android:textAppearanceMedium" />
 
                     <Button
@@ -329,7 +332,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:padding="10dp"
-                        android:text="Ramitha Bandara :"
+                        android:text="@string/ramitha_bandara"
                         android:textAppearance="?android:textAppearanceMedium" />
 
                     <Button
@@ -376,7 +379,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:padding="10dp"
-                        android:text="Ramitha Bandara :"
+                        android:text="@string/ramitha_bandara"
                         android:textAppearance="?android:textAppearanceMedium" />
 
                     <Button
@@ -423,7 +426,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:padding="10dp"
-                        android:text="Ramitha Bandara :"
+                        android:text="@string/ramitha_bandara"
                         android:textAppearance="?android:textAppearanceMedium" />
 
                     <Button

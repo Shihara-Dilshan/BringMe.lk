@@ -220,7 +220,7 @@
 
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Add Button Name "
+                                android:text="@string/add_button_name"
                                 android:background="#2a2a2b"
                                 android:textColor="#ffff"
                                 />
