@@ -63,27 +63,27 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Order ID : I988976876GTGDFSVS567GSTSGS" />
+                            android:text="@string/ongoing_o_id1" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
-                            android:text="Details : Dominos pizza mega pack *2 "
+                            android:text="@string/ongoing_detail_1"
                             android:textColor="?android:attr/textColorSecondary" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="16dp"
-                            android:text="Order Date and Time : 2019-12-22 AT 14.00.00PM"
+                            android:text="@string/ongoing_del_1"
                             android:textColor="?android:attr/textColorSecondary" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="16dp"
-                            android:text="Time remaining to edit or cancel order : 5 minutes"
+                            android:text="@string/ongoing_time_rem_1"
                             android:textColor="?android:attr/textColorSecondary" />
 
 
@@ -91,7 +91,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="16dp"
-                            android:text="Status : Processing"
+                            android:text="@string/status1"
                             android:textColor="?android:attr/textColorSecondary" />
 
                     </LinearLayout>
@@ -110,6 +110,7 @@
                             android:text="Edit"
                             android:layout_weight="1"
                             android:textColor="#ffffff"
+                            android:drawableRight="@drawable/remove"
                             android:layout_marginRight="3dp"
                             android:onClick="editOrder"/>
                         <Button
@@ -119,6 +120,7 @@
                             android:text="Cancel"
                             android:layout_weight="1"
                             android:textColor="#ffffff"
+                            android:drawableRight="@drawable/remove2"
                             android:layout_marginRight="3dp"
                             android:onClick="cancelMsg"/>
 
@@ -195,6 +197,7 @@
                             android:text="Edit"
                             android:layout_weight="1"
                             android:textColor="#ffffff"
+                            android:drawableRight="@drawable/remove"
                             android:layout_marginRight="3dp"/>
                         <Button
                             android:layout_width="match_parent"
@@ -203,6 +206,7 @@
                             android:text="Cancel"
                             android:layout_weight="1"
                             android:textColor="#ffffff"
+                            android:drawableRight="@drawable/remove2"
                             android:layout_marginRight="3dp"/>
 
                     </LinearLayout>
@@ -277,6 +281,7 @@
                             android:background="@color/colorPrimaryButton"
                             android:text="Edit"
                             android:layout_weight="1"
+                            android:drawableRight="@drawable/remove"
                             android:textColor="#ffffff"
                             android:layout_marginRight="3dp"/>
                         <Button
@@ -286,6 +291,7 @@
                             android:text="Cancel"
                             android:layout_weight="1"
                             android:textColor="#ffffff"
+                            android:drawableRight="@drawable/remove2"
                             android:layout_marginRight="3dp"/>
 
                     </LinearLayout>

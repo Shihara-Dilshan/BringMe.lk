@@ -30,7 +30,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:onClick="ViewPAstOrders"
-                    android:text="Past Orders" />
+                    android:text="@string/past_orders_btn" />
 
                 <Button
                     android:id="@+id/onGoingORders2"
@@ -38,7 +38,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:onClick="ViewOngoingOrders"
-                    android:text="Ongoing Orders" />
+                    android:text="@string/ongoing_orders_btn" />
 
 
             </LinearLayout>
@@ -64,20 +64,20 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Order ID : I988976876GTGDFSVS567GSTSGS" />
+                            android:text="@string/order_id_one" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
-                            android:text="Details : Dominos pizza mega pack *2 "
+                            android:text="@string/order_deatils_one"
                             android:textColor="?android:attr/textColorSecondary" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="16dp"
-                            android:text="Order Date and Time : 2019-12-22 AT 14.00.00PM"
+                            android:text="@string/order_data_ready_one"
                             android:textColor="?android:attr/textColorSecondary" />
 
                         <TextView
@@ -91,7 +91,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="16dp"
-                            android:text="Delivered At: 2019-12-22 AT 14.40.00PM"
+                            android:text="@string/delivered_Data_one"
                             android:textColor="?android:attr/textColorSecondary" />
 
                     </LinearLayout>
@@ -107,7 +107,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@color/colorPrimaryButton"
-                            android:text="Re-Order"
+                            android:text="@string/re_order_text"
                             android:textColor="#ffffff" />
                     </LinearLayout>
 
@@ -136,34 +136,34 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Order ID : I988976876GTGDFSVS567GSTSGS" />
+                            android:text="@string/order_id_one" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
-                            android:text="Details : Dominos pizza mega pack *2 "
+                            android:text="@string/order_details_two"
                             android:textColor="?android:attr/textColorSecondary" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="16dp"
-                            android:text="Order Date and Time : 2019-12-22 AT 14.00.00PM"
+                            android:text="@string/order_time"
                             android:textColor="?android:attr/textColorSecondary" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="16dp"
-                            android:text="Delivered By Shihara Dilshan"
+                            android:text="@string/deliver_by_two"
                             android:textColor="?android:attr/textColorSecondary" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="16dp"
-                            android:text="Delivered At: 2019-12-22 AT 14.40.00PM"
+                            android:text="@string/deliver_time"
                             android:textColor="?android:attr/textColorSecondary" />
 
                     </LinearLayout>
