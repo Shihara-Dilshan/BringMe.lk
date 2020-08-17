@@ -100,6 +100,7 @@
     <string name="fast_delivery_tag">Fast Delivery</string>
     <string name="cancel_order">Cancel order possible 5 minutes</string>
     <string name="purchurse_tag">Purchurse</string>
-
-
+    <string name="Item_name_DriverDescription">Chicken burger -</string>
+    <string name="Item_price_DisplayForDriver">Price: Rs.450/=</string>
+    <string name="MoreDetailsDescription">Details of the food and price</string>
 </resources>
