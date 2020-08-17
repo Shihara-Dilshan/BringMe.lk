@@ -100,7 +100,45 @@
     <string name="fast_delivery_tag">Fast Delivery</string>
     <string name="cancel_order">Cancel order possible 5 minutes</string>
     <string name="purchurse_tag">Purchurse</string>
+
     <string name="Item_name_DriverDescription">Chicken burger -</string>
     <string name="Item_price_DisplayForDriver">Price: Rs.450/=</string>
     <string name="MoreDetailsDescription">Details of the food and price</string>
+
+
+    <string name="past_orders_btn">Past Orders</string>
+    <string name="ongoing_orders_btn">Ongoing Orders</string>
+    <string name="order_id_one">Order ID : I988976876GTGDFSVS567GSTSGS</string>
+    <string name="order_deatils_one">Details : Dominos pizza mega pack *2</string>
+    <string name="order_data_ready_one">Order Date and Time : 2019-12-22 AT 14.00.00PM</string>
+    <string name="delivered_Data_one">Delivered At: 2019-12-22 AT 14.40.00PM</string>
+    <string name="re_order_text">Re-Order</string>
+    <string name="order_id_one2">Order ID : I988976876GTGDFSVS567GSTSGS</string>
+    <string name="order_details_two">Details : Dominos pizza mega pack *2</string>
+    <string name="order_time">Order Date and Time : 2019-12-22 AT 14.00.00PM</string>
+    <string name="deliver_by_two">Delivered By Shihara Dilshan</string>
+    <string name="deliver_time">Delivered At: 2019-12-22 AT 14.40.00PM</string>
+    <string name="ongoing_o_id1">Order ID : I988976876GTGDFSVS567GSTSGS</string>
+    <string name="ongoing_detail_1">Details : Dominos pizza mega pack *2</string>
+    <string name="ongoing_del_1">Order Date and Time : 2019-12-22 AT 14.00.00PM</string>
+    <string name="status1">Status : Processing</string>
+    <string name="edit_now_tag">Edit Now</string>
+    <string name="edit_iem_1">Pizaa dominos</string>
+    <string name="chicken_koththu_2">Chicken koththu</string>
+    <string name="bun_mega_pack_3">Bun mega pack</string>
+    <string name="remove_tag">Remove</string>
+    <string name="deliver_location_tag2">Deliver Location</string>
+    <string name="del_location_hint">55/F Alpapalawala</string>
+    <string name="your_bill_topic">Your Bill</string>
+    <string name="base_price_edit">Base Price</string>
+    <string name="initial_edit_tag_price">Rs. 320</string>
+    <string name="deliver_tip_tag2">Deliver Tip</string>
+    <string name="initial_deliver_tip">Rs. 30</string>
+    <string name="total_price_edit">Total Price</string>
+    <string name="final_eit_price">Rs. 350</string>
+    <string name="time_remaining">You have 3 minutes to edit the order</string>
+    <string name="ongoing_time_rem_1">Time remaining to edit or cancel order : 5 minutes</string>
+    <string name="update_btn_text">Update</string>
+
+
 </resources>
