@@ -101,6 +101,11 @@
     <string name="cancel_order">Cancel order possible 5 minutes</string>
     <string name="purchurse_tag">Purchurse</string>
 
+    <string name="Item_name_DriverDescription">Chicken burger -</string>
+    <string name="Item_price_DisplayForDriver">Price: Rs.450/=</string>
+    <string name="MoreDetailsDescription">Details of the food and price</string>
+
+
     <string name="past_orders_btn">Past Orders</string>
     <string name="ongoing_orders_btn">Ongoing Orders</string>
     <string name="order_id_one">Order ID : I988976876GTGDFSVS567GSTSGS</string>
