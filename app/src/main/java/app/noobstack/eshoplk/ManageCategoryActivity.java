@@ -59,7 +59,7 @@ public class ManageCategoryActivity extends AppCompatActivity {
     }
     public void editCategory(View view)
     {
-        Intent intent = new Intent(getApplicationContext(), EditFoodActivity.class);
+        Intent intent = new Intent(getApplicationContext(), EditCategoryActivity.class);
         startActivity(intent);
     }
 }
