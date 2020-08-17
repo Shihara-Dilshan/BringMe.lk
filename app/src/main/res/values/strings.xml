@@ -6,11 +6,12 @@
     <string name="Orders">Orders</string>
     <string name="Profile">Profile</string>
 
+
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="OderNumber">Order Number :OD123</string>
     <string name="CustomerName">Customer Name:Ruvin Wijesinghe</string>
     <string name="DeliveryLocation">Delivery Location:No 89 Main Street Mathale</string>
-
     <string name="top_categories">Top Categories</string>
     <string name="popular_foods">Popular Foods</string>
 
@@ -61,6 +62,12 @@
     <string name="DeliverStatus2">Pending</string>
     <string name="ongoingDeliveries">On Going Deliveries</string>
     <string name="Distance">Distance to deliver:12KM</string>
+
+    <string name="add_button_name">Add Button Name</string>
+    <string name="drivers_in_the_system">Drivers in the system</string>
+    <string name="ramitha_bandara">Ramitha Bandara :</string>
+    <string name="xxxxxxxxx">XXXXXXXXX :</string>
+
     <string name="success_payment">Success payment</string>
     <string name="thank_you">Thank You</string>
     <string name="view_order">View Order</string>
@@ -93,5 +100,40 @@
     <string name="fast_delivery_tag">Fast Delivery</string>
     <string name="cancel_order">Cancel order possible 5 minutes</string>
     <string name="purchurse_tag">Purchurse</string>
+
+    <string name="past_orders_btn">Past Orders</string>
+    <string name="ongoing_orders_btn">Ongoing Orders</string>
+    <string name="order_id_one">Order ID : I988976876GTGDFSVS567GSTSGS</string>
+    <string name="order_deatils_one">Details : Dominos pizza mega pack *2</string>
+    <string name="order_data_ready_one">Order Date and Time : 2019-12-22 AT 14.00.00PM</string>
+    <string name="delivered_Data_one">Delivered At: 2019-12-22 AT 14.40.00PM</string>
+    <string name="re_order_text">Re-Order</string>
+    <string name="order_id_one2">Order ID : I988976876GTGDFSVS567GSTSGS</string>
+    <string name="order_details_two">Details : Dominos pizza mega pack *2</string>
+    <string name="order_time">Order Date and Time : 2019-12-22 AT 14.00.00PM</string>
+    <string name="deliver_by_two">Delivered By Shihara Dilshan</string>
+    <string name="deliver_time">Delivered At: 2019-12-22 AT 14.40.00PM</string>
+    <string name="ongoing_o_id1">Order ID : I988976876GTGDFSVS567GSTSGS</string>
+    <string name="ongoing_detail_1">Details : Dominos pizza mega pack *2</string>
+    <string name="ongoing_del_1">Order Date and Time : 2019-12-22 AT 14.00.00PM</string>
+    <string name="status1">Status : Processing</string>
+    <string name="edit_now_tag">Edit Now</string>
+    <string name="edit_iem_1">Pizaa dominos</string>
+    <string name="chicken_koththu_2">Chicken koththu</string>
+    <string name="bun_mega_pack_3">Bun mega pack</string>
+    <string name="remove_tag">Remove</string>
+    <string name="deliver_location_tag2">Deliver Location</string>
+    <string name="del_location_hint">55/F Alpapalawala</string>
+    <string name="your_bill_topic">Your Bill</string>
+    <string name="base_price_edit">Base Price</string>
+    <string name="initial_edit_tag_price">Rs. 320</string>
+    <string name="deliver_tip_tag2">Deliver Tip</string>
+    <string name="initial_deliver_tip">Rs. 30</string>
+    <string name="total_price_edit">Total Price</string>
+    <string name="final_eit_price">Rs. 350</string>
+    <string name="time_remaining">You have 3 minutes to edit the order</string>
+    <string name="ongoing_time_rem_1">Time remaining to edit or cancel order : 5 minutes</string>
+    <string name="update_btn_text">Update</string>
+
 
 </resources>

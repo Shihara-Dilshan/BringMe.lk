@@ -26,7 +26,7 @@
                     android:layout_margin="5dp"
                     android:padding="10dp"
 
-                    android:text="Drivers in the system"
+                    android:text="@string/drivers_in_the_system"
                     android:textAppearance="?android:textAppearanceMedium" />
 
             </LinearLayout>
@@ -144,7 +144,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:padding="10dp"
-                        android:text="XXXXXXXXX :"
+                        android:text="@string/xxxxxxxxx"
                         android:textAppearance="?android:textAppearanceMedium" />
 
                     <TextView
@@ -192,7 +192,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:padding="10dp"
-                        android:text="XXXXXXXXX :"
+                        android:text="@string/xxxxxxxxx"
                         android:textAppearance="?android:textAppearanceMedium" />
 
                     <TextView
@@ -240,7 +240,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:padding="10dp"
-                        android:text="XXXXXXXXX :"
+                        android:text="@string/xxxxxxxxx"
                         android:textAppearance="?android:textAppearanceMedium" />
 
                     <TextView
@@ -286,7 +286,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:padding="10dp"
-                        android:text="XXXXXXXXX :"
+                        android:text="@string/xxxxxxxxx"
                         android:textAppearance="?android:textAppearanceMedium" />
 
                     <TextView
@@ -334,7 +334,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:padding="10dp"
-                        android:text="XXXXXXXXX :"
+                        android:text="@string/xxxxxxxxx"
                         android:textAppearance="?android:textAppearanceMedium" />
 
                     <TextView
@@ -382,7 +382,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:padding="10dp"
-                        android:text="XXXXXXXXXXX :"
+                        android:text="@string/xxxxxxxxx"
                         android:textAppearance="?android:textAppearanceMedium" />
 
                     <TextView
@@ -430,7 +430,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:padding="10dp"
-                        android:text="XXXXXXXXXXX :"
+                        android:text="@string/xxxxxxxxx"
                         android:textAppearance="?android:textAppearanceMedium" />
 
                     <TextView

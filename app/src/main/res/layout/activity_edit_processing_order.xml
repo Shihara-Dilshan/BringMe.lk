@@ -39,7 +39,7 @@ android:focusableInTouchMode="true"
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Edit Now"
+                android:text="@string/edit_now_tag"
                 android:layout_margin="10dp"
                 android:gravity="center"
                 android:textSize="25sp"/>
@@ -53,11 +53,11 @@ android:focusableInTouchMode="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Pizaa dominos "/>
+                    android:text="@string/edit_iem_1"/>
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Remove"
+                    android:text="@string/remove_tag"
                     android:layout_weight="1"/>
 
             </LinearLayout>
@@ -71,11 +71,11 @@ android:focusableInTouchMode="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Pizaa dominos "/>
+                    android:text="@string/chicken_koththu_2"/>
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Remove"
+                    android:text="@string/remove_tag"
                     android:layout_weight="1"/>
 
             </LinearLayout>
@@ -88,11 +88,11 @@ android:focusableInTouchMode="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Pizaa dominos "/>
+                    android:text="@string/bun_mega_pack_3"/>
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Remove"
+                    android:text="@string/remove_tag"
                     android:layout_weight="1"/>
 
             </LinearLayout>
@@ -112,13 +112,13 @@ android:focusableInTouchMode="true"
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Deliver Location"
+                    android:text="@string/deliver_location_tag2"
                     android:layout_weight="1"
                     android:textSize="18sp"/>
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:hint="55/F Alpapalawala"
+                    android:hint="@string/del_location_hint"
                     android:layout_weight="1"
                     />
 
@@ -126,7 +126,7 @@ android:focusableInTouchMode="true"
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Your Bill"
+                android:text="@string/your_bill_topic"
                 android:layout_weight="1"
                 android:textSize="18sp"
                 android:layout_gravity="center"
@@ -140,36 +140,14 @@ android:focusableInTouchMode="true"
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Base Price"
+                    android:text="@string/base_price_edit"
                     android:layout_weight="1"
                     android:layout_marginBottom="10dp"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Rs. 320"
-                    android:layout_weight="1"
-                    android:layout_marginBottom="10dp"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="5dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Deliver Tip"
-                    android:layout_weight="1"
-                    android:layout_marginBottom="10dp"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Rs. 30"
+                    android:text="@string/initial_edit_tag_price"
                     android:layout_weight="1"
                     android:layout_marginBottom="10dp"
                     />
@@ -185,13 +163,35 @@ android:focusableInTouchMode="true"
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Total Price"
+                    android:text="@string/deliver_tip_tag"
                     android:layout_weight="1"
                     android:layout_marginBottom="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Rs. 350"
+                    android:text="@string/deliver_tip_tag2"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/total_price_edit"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/final_eit_price"
                     android:layout_weight="1"
                     android:layout_marginBottom="10dp"
                     />
@@ -203,18 +203,7 @@ android:focusableInTouchMode="true"
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Fast Delivery"
-                android:layout_weight="3"
-                android:textColor="#009688"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:textAppearance="?android:textAppearanceSmall"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Cancel order possible 5 minutes"
+                android:text="@string/time_remaining"
                 android:layout_weight="3"
                 android:textColor="#009688"
                 android:layout_gravity="center"
@@ -225,7 +214,7 @@ android:focusableInTouchMode="true"
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Update"
+                android:text="@string/update_btn_text"
                 android:padding="5dp"
                 android:background="#009688"
                 android:layout_margin="5dp"
